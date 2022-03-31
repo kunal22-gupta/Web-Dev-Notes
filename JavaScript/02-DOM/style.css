@@ -1,0 +1,13 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+#heading, #sub-heading {
+	text-align: center;
+}
+hr {
+	border: solid white 1px;
+}
+.pink {
+	background-color: pink;
+}
