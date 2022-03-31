@@ -1,2 +1,2 @@
-# Web-Dev-Notes
-This repository contains my learning in form of notes till date.
+# Web-Development
+This repository contains all my learning in web development. 
