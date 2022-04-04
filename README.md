@@ -32,7 +32,7 @@ If you feel like you can add +1 to a pre explained topic/concept or want to add 
 
 <br/>
 
-## My socials
+## Connect with me
 <a href="https://twitter.com/_kunalgupta__"><img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"></a> 
 <a href="https://www.linkedin.com/in/kunalgupta2210/"><img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"></a> 
 <a href="https://kunal-22.hashnode.dev/"><img width="30px" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"></a>
