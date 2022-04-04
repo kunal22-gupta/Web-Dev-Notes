@@ -56,6 +56,7 @@ for(var i = 0; i < drums.length; i++){
 	drums[i].addEventListener("click", function() {
 		var alpha = this.innerHTML; // this returns the Selected Element
 		playSound(alpha); 
+    buttonAnimate(alpha);
 	});
 }
 
@@ -63,5 +64,17 @@ for(var i = 0; i < drums.length; i++){
 document.addEventListener("keydown", function(event){ //This is a call back function. Google or YouTube to get a better understanding of it. Here event can be of any name which is just telling what event has happened right now. And it contains all the properties of that event.
 
 	playSound(event.key); // here key is one of such property which stores the string representation of the key pressed. You can say event is a object that has a whole lot of properties. Check mdn reference for more info.
+  buttonAnimate(event.key);
 
 });
+
+// We can also add animations like when our key is pressed it pops in then out. So when a key is pressed some animation function should be executed. Lets create our function
+function buttonAnimate(button){
+  document.querySelector("." + button).classList.add("pressed");
+
+  //setTimeout() function addes a delay of some specified seconds to the function present inside it.
+  setTimeout(function(){
+    document.querySelector("." + button).classList.remove("pressed");
+  }, 200); //here is have given a delay of 2 sec.
+
+}
